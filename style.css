@@ -95,12 +95,12 @@ a:hover {
     flex-direction: column;
 }
 
-/* CV Specific Styles */
-.cv-section {
+/* Resume Specific Styles */
+.resume-section {
     margin-bottom: 48px;
 }
 
-.cv-category {
+.resume-category {
     color: #ffffff;
     font-size: 1rem;
     text-transform: uppercase;
@@ -110,23 +110,19 @@ a:hover {
     padding-bottom: 8px;
 }
 
-.cv-details {
+.resume-details {
     flex: 1;
 }
 
-.cv-bullets {
+.resume-bullets {
     margin: 8px 0 0 0;
     padding-left: 18px;
     color: #a1a1a1;
     font-size: 0.95rem;
 }
 
-.cv-bullets li {
+.resume-bullets li {
     margin-bottom: 4px;
-}
-
-strong {
-    color: #ffffff;
 }
 
 /* Footer */
