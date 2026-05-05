@@ -7,33 +7,36 @@ layout: default
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
+    <title>Abdennour Soutto - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
+        <nav class="top-nav">
+            <a href="/">home</a>
+            <a href="/blog">blog</a>
+        </nav>
+
         <section id="header">
-            <h1>Your Name</h1>
+            <h1>My Portfolio</h1>
             <p class="bio">
-                I'm a computer science student and broadcast video engineer.
+                I'm a computer science student and video engineer. I enjoy building things for the web and working with broadcast tech.
             </p>
         </section>
 
         <section id="blog-list">
-            <hr>
-            {% for post in site.posts %}
-              <div class="post-entry">
-                  <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
-                  <a href="{{ post.url }}">{{ post.title }}</a>
-              </div>
-            {% endfor %}
+            <div class="post-entry">
+                <span class="date">May 5, 2026</span>
+                <a href="blog/first-post.html">Building a Minimalist Portfolio</a>
+            </div>
             </section>
 
         <footer>
-            <nav>
-                <a href="https://github.com/souttoa">GitHub</a>
-                <a href="rss.xml">RSS</a>
+            <nav class="footer-nav">
+                <a href="rss.xml">↗ rss</a>
+                <a href="https://github.com/souttoa">↗ github</a>
             </nav>
+            <p class="copyright">© 2026 MIT Licensed</p>
         </footer>
     </main>
 </body>
