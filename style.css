@@ -23,11 +23,11 @@ main {
 /* Typography & Links */
 h1 {
     color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* Exact same size as home page name */
     font-weight: 600;
     letter-spacing: -0.02em;
     margin-top: 40px;
-    margin-bottom: 24px;
+    margin-bottom: 8px; /* Reduced to pull the date closer */
 }
 
 a {
@@ -55,10 +55,16 @@ a:hover {
     color: #ffffff;
 }
 
-/* Bio */
-.bio {
+/* Bio & Post Meta */
+.bio, .post-date {
     color: #d4d4d4;
     margin-bottom: 48px;
+}
+
+.post-date {
+    color: #888888; /* The specific gray from your blog list */
+    font-size: 0.9rem;
+    display: block;
 }
 
 /* Blog List (Homepage) */
@@ -73,38 +79,13 @@ a:hover {
     font-variant-numeric: tabular-nums;
 }
 
-/* Individual Post Content (New Section) */
-.post-header {
-    margin-bottom: 40px;
-}
-
-.post-title {
-    font-size: 2.2rem; /* Larger than home h1 for headlines */
-    margin-top: 0;
-    margin-bottom: 8px;
-}
-
-.post-date-large {
-    display: block;
-    color: #888888;
-    font-size: 0.95rem;
-    margin-bottom: 32px;
-}
-
+/* Individual Post Content Layout */
 .post-content {
-    font-size: 1.1rem;
-    line-height: 1.8;
+    color: #e5e5e5;
 }
 
 .post-content p {
     margin-bottom: 24px;
-}
-
-.post-content h2 {
-    color: #ffffff;
-    font-size: 1.3rem;
-    margin-top: 48px;
-    margin-bottom: 16px;
 }
 
 /* Footer */
