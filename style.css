@@ -88,6 +88,13 @@ a:hover {
     margin-bottom: 24px;
 }
 
+/* Projects */
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Footer */
 footer {
     margin-top: 64px;
