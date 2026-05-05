@@ -1,0 +1,22 @@
+---
+layout: default
+title: Projects
+---
+<section id="header">
+    <h1>Projects</h1>
+    <p class="bio">
+        A collection of things I've built.
+    </p>
+</section>
+
+<section id="project-list">
+    {% for project in site.data.projects %}
+    <div class="post-entry">
+        <span class="date">{{ project.year }}</span>
+        <div class="project-details">
+            <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer">{{ project.name }}</a>
+            <p style="margin: 4px 0 0 0; color: #a1a1a1; font-size: 0.95rem;">{{ project.description }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</section>
