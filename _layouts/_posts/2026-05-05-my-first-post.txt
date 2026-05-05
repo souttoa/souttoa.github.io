@@ -1,6 +1,0 @@
----
-layout: post
-title: "LastLeg: Wayfinding App for Indoor/Outdoor Spaces"
-date: 2026-02-05
----
-This is the content of my post!
