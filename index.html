@@ -21,11 +21,13 @@
         </section>
 
         <section id="blog-list">
+            {% for post in site.posts %}
             <div class="post-entry">
-                <span class="date">May 5, 2026</span>
-                <a href="blog/first-post.html">Building a Minimalist Portfolio</a>
+                <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <a href="blog/first-post.html">{{ post.title }}</a>
             </div>
-            </section>
+            {% endfor %}
+        </section>
 
         <footer>
             <nav class="footer-nav">
