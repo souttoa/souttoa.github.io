@@ -1,37 +1,11 @@
 ---
+layout: default
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="color-scheme" content="dark">
-    <link rel="stylesheet" href="/style.css">
-    <title>{{ page.title }} | Abdennour Soutto</title>
-    <link rel="icon" type="image/png" href="/favicon.png">
-</head>
-<body>
-    <main>
-        <nav class="top-nav">
-            <a href="/">home</a>
-            <a href="/blog">blog</a>
-        </nav>
+<section id="header">
+    <h1>{{ page.title }}</h1>
+    <span class="post-date">{{ page.date | date: "%b %-d, %Y" }}</span>
+</section>
 
-        <section id="header">
-            <h1>{{ page.title }}</h1>
-            <span class="post-date">{{ page.date | date: "%B %-d, %Y" }}</span>
-        </section>
-
-        <section class="post-content">
-            {{ content }}
-        </section>
-
-        <footer>
-            <nav class="footer-nav">
-                <a href="https://www.linkedin.com/in/soutto/" target="_blank" rel="noopener noreferrer">↗ linkedin</a>
-                <a href="https://github.com/souttoa" target="_blank" rel="noopener noreferrer">↗ github</a>
-            </nav>
-        </footer>
-    </main>
-</body>
-</html>
+<section class="post-content">
+    {{ content }}
+</section>
