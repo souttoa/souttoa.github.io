@@ -1,4 +1,8 @@
 /* Base & Reset */
+html {
+    background-color: #000000;
+}
+
 body {
     background-color: #000000;
     color: #e5e5e5;
@@ -6,7 +10,8 @@ body {
     line-height: 1.6;
     margin: 0;
     font-size: 16px;
-    -webkit-font-smoothing: antialiased; /* Makes text look sharper on Mac */
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
 }
 
 main {
@@ -27,12 +32,12 @@ h1 {
 
 a {
     color: #ffffff;
-    text-decoration: none; /* Removes the underline */
+    text-decoration: none;
     transition: color 0.2s ease;
 }
 
 a:hover {
-    color: #a1a1a1; /* Subtle gray on hover */
+    color: #a1a1a1;
 }
 
 /* Top Navigation */
@@ -56,7 +61,7 @@ a:hover {
     margin-bottom: 48px;
 }
 
-/* Blog List */
+/* Blog List (Homepage) */
 .post-entry {
     display: flex;
     margin-bottom: 16px;
@@ -64,8 +69,42 @@ a:hover {
 
 .date {
     color: #888888;
-    min-width: 110px; /* Keeps dates aligned without pushing titles away */
+    min-width: 110px;
     font-variant-numeric: tabular-nums;
+}
+
+/* Individual Post Content (New Section) */
+.post-header {
+    margin-bottom: 40px;
+}
+
+.post-title {
+    font-size: 2.2rem; /* Larger than home h1 for headlines */
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.post-date-large {
+    display: block;
+    color: #888888;
+    font-size: 0.95rem;
+    margin-bottom: 32px;
+}
+
+.post-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.post-content p {
+    margin-bottom: 24px;
+}
+
+.post-content h2 {
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin-top: 48px;
+    margin-bottom: 16px;
 }
 
 /* Footer */
