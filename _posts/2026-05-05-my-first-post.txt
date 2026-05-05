@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building a Minimalist Portfolio"
-date: 2026-05-05
+title: "LastLeg: Wayfinding App for Indoor/Outdoor Spaces"
+date: 2026-02-05
 ---
 This is the content of my post!
