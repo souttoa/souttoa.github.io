@@ -23,11 +23,11 @@ main {
 /* Typography & Links */
 h1 {
     color: #ffffff;
-    font-size: 1.5rem; /* Exact same size as home page name */
+    font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: -0.02em;
     margin-top: 40px;
-    margin-bottom: 0; /* Reset to 0, replaced by .bio top margin or #header bottom margin */
+    margin-bottom: 0;
 }
 
 a {
@@ -57,21 +57,22 @@ a:hover {
 
 /* Header Container */
 #header {
-    margin-bottom: 48px;
+    padding-bottom: 48px;
+    margin-bottom: 0;
 }
 
 /* Bio & Post Meta */
 .bio {
     color: #d4d4d4;
-    margin-top: 8px; /* Restores the 8px gap below the h1 */
-    margin-bottom: 0; /* Allows #header to dictate the space below */
+    margin-top: 8px;
+    margin-bottom: 0;
 }
 
 .post-date {
-    color: #888888; /* The specific gray from your blog list */
+    color: #888888;
     font-size: 0.9rem;
     display: block;
-    margin-bottom: 48px; 
+    margin-bottom: 48px;
 }
 
 /* Blog List (Homepage) */
@@ -112,7 +113,7 @@ a:hover {
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    margin-top: 0; /* Kills default browser margin */
+    margin-top: 0;
     margin-bottom: 24px;
     border-bottom: 1px solid #333;
     padding-bottom: 8px;
