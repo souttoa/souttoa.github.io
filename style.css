@@ -55,16 +55,22 @@ a:hover {
     color: #ffffff;
 }
 
-/* Bio & Post Meta */
-.bio, .post-date {
-    color: #d4d4d4;
+/* Header Container */
+#header {
     margin-bottom: 48px;
+}
+
+/* Bio & Post Meta */
+.bio {
+    color: #d4d4d4;
+    margin-bottom: 0; /* Keeps default 16px top margin, removes bottom to let #header handle spacing */
 }
 
 .post-date {
     color: #888888; /* The specific gray from your blog list */
     font-size: 0.9rem;
     display: block;
+    margin-bottom: 48px; /* Restored from original combined rule */
 }
 
 /* Blog List (Homepage) */
