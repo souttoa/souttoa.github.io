@@ -138,3 +138,13 @@ footer {
 .footer-nav a {
     color: #e5e5e5;
 }
+
+/* Page-Specific Top Spacing */
+
+.resume-section:first-of-type {
+    margin-top: 32px; 
+}
+
+#project-list {
+    margin-top: 16px; 
+}
