@@ -90,14 +90,15 @@ a:hover {
 
 /* Single Image */
 .post-image {
-    max-width: 600px; 
+    max-width: 100%; 
     margin: 40px auto; 
     text-align: center;
 }
 
 .post-image img {
-    width: 100%; 
-    height: auto;
+    max-width: 100%;
+    max-height: 500px;
+    width: auto;
     border-radius: 8px; 
 }
 
@@ -122,11 +123,11 @@ a:hover {
 }
 
 .gallery-row img {
-    flex: 1; 
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    max-height: 400px;
+    width: auto; 
     border-radius: 8px;
-    object-fit: cover; 
+    object-fit: contain;
 }
 
 .image-gallery figcaption {
