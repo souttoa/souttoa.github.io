@@ -1,9 +1,9 @@
-- name: LastLeg
-  description: An iOS App Clip for providing directions in large commercial spaces
-  link: https://souttoa.github.io/2026/03/05/last-leg.html
-  year: 2025
-
 - name: Boat Management
   description: A C-based billing management system for tracking marina boats and storage fees
   link: https://github.com/UM-CSC322-26S/programming-project-i-souttoa
   year: 2026
+
+- name: LastLeg
+  description: An iOS App Clip for providing directions in large commercial spaces
+  link: https://souttoa.github.io/2026/03/05/last-leg.html
+  year: 2025
