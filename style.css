@@ -125,6 +125,14 @@ a:hover {
     margin-bottom: 4px;
 }
 
+.DownloadLink {
+    color: #a1a1a1;
+}
+
+.DownloadLink:hover {
+    color: #ffffff;
+}
+
 /* Footer */
 footer {
     margin-top: 64px;
