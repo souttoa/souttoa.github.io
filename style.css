@@ -27,7 +27,7 @@ h1 {
     font-weight: 600;
     letter-spacing: -0.02em;
     margin-top: 40px;
-    margin-bottom: 8px; /* Reduced to pull the date closer */
+    margin-bottom: 0; /* Reset to 0, replaced by .bio top margin or #header bottom margin */
 }
 
 a {
@@ -63,14 +63,15 @@ a:hover {
 /* Bio & Post Meta */
 .bio {
     color: #d4d4d4;
-    margin-bottom: 0; /* Keeps default 16px top margin, removes bottom to let #header handle spacing */
+    margin-top: 8px; /* Restores the 8px gap below the h1 */
+    margin-bottom: 0; /* Allows #header to dictate the space below */
 }
 
 .post-date {
     color: #888888; /* The specific gray from your blog list */
     font-size: 0.9rem;
     display: block;
-    margin-bottom: 48px; /* Restored from original combined rule */
+    margin-bottom: 48px; 
 }
 
 /* Blog List (Homepage) */
@@ -111,6 +112,7 @@ a:hover {
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    margin-top: 0; /* Kills default browser margin */
     margin-bottom: 24px;
     border-bottom: 1px solid #333;
     padding-bottom: 8px;
