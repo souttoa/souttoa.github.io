@@ -23,11 +23,11 @@ main {
 /* Typography & Links */
 h1 {
     color: #ffffff;
-    font-size: 1.5rem; 
+    font-size: 1.5rem; /* Exact same size as home page name */
     font-weight: 600;
     letter-spacing: -0.02em;
     margin-top: 40px;
-    margin-bottom: 8px; /* Dictates the space between title and bio */
+    margin-bottom: 8px; /* Reduced to pull the date closer */
 }
 
 a {
@@ -55,28 +55,16 @@ a:hover {
     color: #ffffff;
 }
 
-/* Header System */
-#header {
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-.bio {
+/* Bio & Post Meta */
+.bio, .post-date {
     color: #d4d4d4;
-    margin: 0; /* Strips browser defaults so the header wraps tightly around the text */
+    margin-bottom: 48px;
 }
 
-/* Master Spacing Rule */
-#header + section {
-    margin-top: 48px; /* Forces exactly 48px of space before the lists begin, universally */
-}
-
-/* Post Meta */
 .post-date {
-    color: #888888; 
+    color: #888888; /* The specific gray from your blog list */
     font-size: 0.9rem;
     display: block;
-    margin-bottom: 48px; 
 }
 
 /* Blog List (Homepage) */
@@ -101,6 +89,7 @@ a:hover {
 }
 
 /* Projects */
+
 .project-details {
     display: flex;
     flex-direction: column;
@@ -116,7 +105,6 @@ a:hover {
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    margin-top: 0; /* Kills default h2 margin so it doesn't add to the 48px master gap */
     margin-bottom: 24px;
     border-bottom: 1px solid #333;
     padding-bottom: 8px;
