@@ -23,11 +23,11 @@ main {
 /* Typography & Links */
 h1 {
     color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* Exact same size as home page name */
     font-weight: 600;
     letter-spacing: -0.02em;
     margin-top: 40px;
-    margin-bottom: 0;
+    margin-bottom: 8px; /* Reduced to pull the date closer */
 }
 
 a {
@@ -55,24 +55,16 @@ a:hover {
     color: #ffffff;
 }
 
-/* Header Container */
-#header {
-    padding-bottom: 48px;
-    margin-bottom: 0;
-}
-
 /* Bio & Post Meta */
-.bio {
+.bio, .post-date {
     color: #d4d4d4;
-    margin-top: 8px;
-    margin-bottom: 0;
+    margin-bottom: 48px;
 }
 
 .post-date {
-    color: #888888;
+    color: #888888; /* The specific gray from your blog list */
     font-size: 0.9rem;
     display: block;
-    margin-bottom: 48px;
 }
 
 /* Blog List (Homepage) */
@@ -113,7 +105,6 @@ a:hover {
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    margin-top: 0;
     margin-bottom: 24px;
     border-bottom: 1px solid #333;
     padding-bottom: 8px;
