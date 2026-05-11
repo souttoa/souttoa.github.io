@@ -55,8 +55,17 @@ a:hover {
     color: #ffffff;
 }
 
+/* Header Spacing */
+#header {
+    margin-bottom: 64px;
+}
+
 /* Bio & Post Meta */
-.bio, .post-date {
+.bio {
+    color: #d4d4d4;
+    margin-bottom: 0;
+
+.post-date {
     color: #d4d4d4;
     margin-bottom: 48px;
 }
