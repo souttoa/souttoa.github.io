@@ -55,15 +55,16 @@ a:hover {
     color: #ffffff;
 }
 
-/* Header Spacing */
-#header {
-    margin-bottom: 64px;
-}
-
 /* Bio & Post Meta */
 .bio, .post-date {
     color: #d4d4d4;
     margin-bottom: 48px;
+}
+
+.post-date {
+    color: #888888; /* The specific gray from your blog list */
+    font-size: 0.9rem;
+    display: block;
 }
 
 /* Blog List (Homepage) */
@@ -137,14 +138,4 @@ footer {
 
 .footer-nav a {
     color: #e5e5e5;
-}
-
-/* Page-Specific Top Spacing */
-
-.resume-section:first-of-type {
-    margin-top: 32px; 
-}
-
-#project-list {
-    margin-top: 16px; 
 }
