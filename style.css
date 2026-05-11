@@ -88,6 +88,24 @@ a:hover {
     margin-bottom: 24px;
 }
 
+.post-image {
+    max-width: 600px; 
+    margin: 40px auto; 
+    text-align: center;
+}
+
+.post-image img {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px; 
+}
+
+.post-image figcaption {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
 /* Projects */
 
 .project-details {
