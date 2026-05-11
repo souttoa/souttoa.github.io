@@ -55,12 +55,12 @@ a:hover {
     color: #ffffff;
 }
 
-/* Bio & Post Meta */
-.post-date {
-    color: #d4d4d4;
+/* Header */
+#header {
     margin-bottom: 48px;
 }
 
+/* Bio & Post Meta */
 .bio {
     color: #d4d4d4;
     margin: 0;
@@ -70,6 +70,7 @@ a:hover {
     color: #888888; /* The specific gray from your blog list */
     font-size: 0.9rem;
     display: block;
+    margin-bottom: 48px;
 }
 
 /* Blog List (Homepage) */
