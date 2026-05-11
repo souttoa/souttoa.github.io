@@ -61,19 +61,9 @@ a:hover {
 }
 
 /* Bio & Post Meta */
-.bio {
-    color: #d4d4d4;
-    margin-bottom: 0;
-
-.post-date {
+.bio, .post-date {
     color: #d4d4d4;
     margin-bottom: 48px;
-}
-
-.post-date {
-    color: #888888; /* The specific gray from your blog list */
-    font-size: 0.9rem;
-    display: block;
 }
 
 /* Blog List (Homepage) */
