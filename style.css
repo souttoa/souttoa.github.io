@@ -56,9 +56,14 @@ a:hover {
 }
 
 /* Bio & Post Meta */
-.bio, .post-date {
+.post-date {
     color: #d4d4d4;
     margin-bottom: 48px;
+}
+
+.bio {
+    color: #d4d4d4;
+    margin: 0;
 }
 
 .post-date {
