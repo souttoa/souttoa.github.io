@@ -23,11 +23,11 @@ main {
 /* Typography & Links */
 h1 {
     color: #ffffff;
-    font-size: 1.5rem; /* Exact same size as home page name */
+    font-size: 1.5rem;
     font-weight: 600;
     letter-spacing: -0.02em;
     margin-top: 40px;
-    margin-bottom: 8px; /* Reduced to pull the date closer */
+    margin-bottom: 8px;
 }
 
 a {
