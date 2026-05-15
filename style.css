@@ -88,6 +88,17 @@ a:hover {
     margin-bottom: 24px;
 }
 
+/* Post Content Links */
+.post-content a {
+    color: #58a6ff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.post-content a:hover {
+    color: #8ab4f8;
+}
+
 /* Single Image */
 .post-image {
     max-width: 100%; 
