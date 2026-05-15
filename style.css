@@ -130,6 +130,15 @@ a:hover {
     object-fit: contain;
 }
 
+.gallery-row video {
+    max-width: 100%;
+    max-height: 400px;
+    width: auto; 
+    border-radius: 8px;
+    object-fit: contain;
+    background-color: #111; 
+}
+
 .image-gallery figcaption {
     font-size: 14px;
     color: #888888;
