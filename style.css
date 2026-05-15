@@ -136,7 +136,8 @@ a:hover {
     width: auto; 
     border-radius: 8px;
     object-fit: contain;
-    background-color: #111; 
+    background-color: #111;
+    aspect-ratio: 9 / 16;
 }
 
 .image-gallery figcaption {
